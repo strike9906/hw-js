@@ -93,10 +93,10 @@ function sum3 () {
 res = sum3(5,5,5);
 console.log(res);
 // Task 12
-let array = [10, 11,12,13,14,15,16]
+let array = [10,11,12,13,14,15,16]
 console.log(array); 
 array2 = [4, 6, 7];
-array = splice(array, 1, 7, ...array2);
+array = splice(array, 2, 3, ...array2);
 console.log(array);
 function splice(array, start, amount, ...insert) {
 	let arr = array,
@@ -114,18 +114,3 @@ function splice(array, start, amount, ...insert) {
 	}
 	return arr;
 }
-// //Метод slice
-// let arr = array, 
-// 	length = arr.length;
-// if (arr.length >= start + amount) {
-// 	for (var i = 0; i < (arr.length - start - amount); i++) { // замена элементов
-// 		arr[start + i] = arr[start + amount + i];  
-// 	} 
-// 	for (var i = 0; i < amount; i++) { 
-// 		arr.pop();
-// 	}
-// } else {
-// 	for (var i = 0; i < length - start; i++) { 
-// 		arr.pop();
-// 	}
-// }
