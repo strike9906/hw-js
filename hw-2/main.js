@@ -87,56 +87,56 @@ if (personAge < 7) {
 	alert("Вы неверно ввели возраст");
 }
 // Task 6
-var object = {
-	tagName : "body",
-	subTags : {
-		firstDiv : {
-			tagName : "div",
-			subTags : {
-				objectSpan : {
-					tagName : "span",
-					text : "Enter a data please:"
-					objectBr : {
-						tagName : "br"
-					}
-				}
-				objectInput : {
-					tagName : "input",
-					attrs : {
-						type : "text",
-						id : "name"
-					}
-					}
-				objectInput : {
-					tagName : "input",
-					attrs : {
-						type : "text",
-						id : "surname"
-					}
-				}
-			}
-		}
-		secondDiv : {
-			tagName : "div",
-			subTags : {
-				objectButton : {
-					tagName : "button",
-					text : "OK"
-					attrs : {
-						id : "ok"
-					}
-				}
-				objectButton : {
-					tagName : "button",
-					text : "Cancel"
-					attrs : {
-						id : "cancel"
-					}
-				}
-			}
-		}
-	}
-}
+// var object = {
+// 	tagName : "body",
+// 	subTags : {
+// 		firstDiv : {
+// 			tagName : "div",
+// 			subTags : {
+// 				objectSpan : {
+// 					tagName : "span",
+// 					text : "Enter a data please:"
+// 					objectBr : {
+// 						tagName : "br"
+// 					}
+// 				}
+// 				objectInput : {
+// 					tagName : "input",
+// 					attrs : {
+// 						type : "text",
+// 						id : "name"
+// 					}
+// 					}
+// 				objectInput : {
+// 					tagName : "input",
+// 					attrs : {
+// 						type : "text",
+// 						id : "surname"
+// 					}
+// 				}
+// 			}
+// 		}
+// 		secondDiv : {
+// 			tagName : "div",
+// 			subTags : {
+// 				objectButton : {
+// 					tagName : "button",
+// 					text : "OK"
+// 					attrs : {
+// 						id : "ok"
+// 					}
+// 				}
+// 				objectButton : {
+// 					tagName : "button",
+// 					text : "Cancel"
+// 					attrs : {
+// 						id : "cancel"
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
 // Task 7
 var notebook = {
     brand: prompt("Enter brand of notebook", ""),
